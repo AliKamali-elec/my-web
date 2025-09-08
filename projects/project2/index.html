@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 1 - Ali Kamali</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="navbar-brand">← Back to Home</a>
+    </div>
+  </nav>
+
+  <section class="py-5 text-center">
+    <div class="container">
+      <h1 class="hero-title">Project 1</h1>
+      <p class="hero-subtitle">این یک نمونه پروژه است.</p>
+      <img src="https://picsum.photos/600/400" alt="Project Screenshot" class="img-fluid rounded shadow">
+      <p class="mt-4">توضیحات کامل درباره این پروژه رو می‌تونی اینجا بنویسی.</p>
+    </div>
+  </section>
+
+  <footer class="py-4 text-center">
+    <p>&copy; <span id="year"></span> Ali Kamali</p>
+  </footer>
+  
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
